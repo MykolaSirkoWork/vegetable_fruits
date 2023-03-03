@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__log-out {
+    position: relative;
+    left: -30%;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}

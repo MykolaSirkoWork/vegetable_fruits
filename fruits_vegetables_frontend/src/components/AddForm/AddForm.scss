@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__select {
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  &__input {
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    border-left-width: 1px;
+    font-size: 16px;
+
+    &:focus {
+      border: 2px solid rgb(113, 113, 113);
+      border-left-width: 1px;
+    }
+  }
+
+  &__add {
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+
+    &__button {
+      font-size: 16px;
+      height: 40px;
+      padding: 5px;
+      background-color: transparent;
+      outline: none;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

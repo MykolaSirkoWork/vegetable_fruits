@@ -1,0 +1,27 @@
+[
+  {
+    "name": "cucumber",
+    "id": "1",
+    "price": 250
+  },
+  {
+    "name": "potato",
+    "id": "2",
+    "price": 250
+  },
+  {
+    "name": "tomato",
+    "id": "3",
+    "price": 250
+  },
+  {
+    "name": "corn",
+    "id": "4",
+    "price": 250
+  },
+  {
+    "name": "cabbage",
+    "id": "5",
+    "price": 250
+  }
+]
